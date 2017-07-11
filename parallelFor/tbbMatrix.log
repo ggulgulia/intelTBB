@@ -1,0 +1,120 @@
+
+===============================================================
+Begin of test 1
+Ref Size of Square Matrix : 256
+
+elaplsed time for serial multiply:    0.00838013
+total glops needed by serial multiply:3.99623
+
+elaplsed time for parallel multiply:    0.0171787
+total glops needed by parallel multiply:1.94944
+
+Application speed up : 0.487821
+End of test 1
+===============================================================
+
+
+===============================================================
+Begin of test 2
+Ref Size of Square Matrix : 512
+
+elaplsed time for serial multiply:    0.0479833
+total glops needed by serial multiply:5.58889
+
+elaplsed time for parallel multiply:    0.031476
+total glops needed by parallel multiply:8.51993
+
+Application speed up : 1.52444
+End of test 2
+===============================================================
+
+
+===============================================================
+Begin of test 3
+Ref Size of Square Matrix : 768
+
+elaplsed time for serial multiply:    0.136962
+total glops needed by serial multiply:6.61043
+
+elaplsed time for parallel multiply:    0.0789187
+total glops needed by parallel multiply:11.4723
+
+Application speed up : 1.73549
+End of test 3
+===============================================================
+
+
+===============================================================
+Begin of test 4
+Ref Size of Square Matrix : 1024
+
+elaplsed time for serial multiply:    0.33029
+total glops needed by serial multiply:6.49864
+
+elaplsed time for parallel multiply:    0.173651
+total glops needed by parallel multiply:12.3606
+
+Application speed up : 1.90203
+End of test 4
+===============================================================
+
+
+===============================================================
+Begin of test 5
+Ref Size of Square Matrix : 1280
+
+elaplsed time for serial multiply:    0.641598
+total glops needed by serial multiply:6.53473
+
+elaplsed time for parallel multiply:    0.291266
+total glops needed by parallel multiply:14.3946
+
+Application speed up : 2.20279
+End of test 5
+===============================================================
+
+
+===============================================================
+Begin of test 6
+Ref Size of Square Matrix : 1536
+
+elaplsed time for serial multiply:    1.11576
+total glops needed by serial multiply:6.49369
+
+elaplsed time for parallel multiply:    0.492896
+total glops needed by parallel multiply:14.6997
+
+Application speed up : 2.26368
+End of test 6
+===============================================================
+
+
+===============================================================
+Begin of test 7
+Ref Size of Square Matrix : 1792
+
+elaplsed time for serial multiply:    1.82773
+total glops needed by serial multiply:6.29521
+
+elaplsed time for parallel multiply:    0.771304
+total glops needed by parallel multiply:14.9175
+
+Application speed up : 2.36967
+End of test 7
+===============================================================
+
+
+===============================================================
+Begin of test 8
+Ref Size of Square Matrix : 2048
+
+elaplsed time for serial multiply:    3.94112
+total glops needed by serial multiply:4.35807
+
+elaplsed time for parallel multiply:    1.16821
+total glops needed by parallel multiply:14.7026
+
+Application speed up : 3.37364
+End of test 8
+===============================================================
+
