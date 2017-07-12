@@ -6,9 +6,6 @@
 
 using namespace tbb;
 
-/*const size_t m_rows = 512;
-const size_t m_columns = 512;
-const size_t m_k = 512;*/
 
 void serialMatrixMultiply(double *A, double *B, double *C, size_t rows, size_t columns, size_t k)
 {
@@ -17,7 +14,7 @@ void serialMatrixMultiply(double *A, double *B, double *C, size_t rows, size_t c
         for(size_t col = 0; col< columns; ++col)
         {
             C[row*columns + col] = A[row*k + 0]*B[0*columns + col];
-            for(size_t i = 0; i < k; ++i)
+            for(size_t i = 1; i < k; ++i)
             {
                 C[row*columns + col] += A[row*k + i]*B[i*columns +col];
             }
