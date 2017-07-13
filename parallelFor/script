@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH -o job.out
+#SBATCH -J tbb
+#SBATCH --get-user-env 
+#SBATCH --clusters=mpp2
+#SBATCH --nodes=1-1 
+#SBATCH --cpus-per-task=28 
+
+#SBATCH --export=NONE 
+#SBATCH --time=00:05:00 
+source /etc/profile.d/modules.sh
+export OMP_NUM_THREADS=28 
+# 28 is the maximum reasonable value for CooLMUC2 
+./myprog.exe
+
